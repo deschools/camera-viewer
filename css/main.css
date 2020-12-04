@@ -115,8 +115,9 @@ li {
 
 html {
   /* avoid annoying page width change
-  when moving from the home page */
-  overflow-y: scroll;
+  when moving from the home page
+  overflow-y: scroll;*/
+  height: 100%
 }
 
 img {
@@ -192,9 +193,10 @@ a:hover {
 
 a#viewSource {
   display: block;
-  margin: 1.3em 0 0 0;
+  /*margin: 1.3em 0 0 0;*/
   border-top: 1px solid #999;
-  padding: 1em 0 0 0;
+  /*padding: 1em 0 0 0;*/
+  height: 5%;
 }
 
 div#errorMsg p {
@@ -227,9 +229,10 @@ textarea {
 video {
   background: #222;
   margin: 0 0 20px 0;
-  --width: 100%;
+  /*--width: 100%;
   width: var(--width);
-  height: calc(var(--width) * 0.75);
+  height: calc(var(--width) * 0.75);*/
+  height: 94%;
 }
 
 ul {

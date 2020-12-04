@@ -16,7 +16,7 @@
   padding: 0.2em 1.5em;
 }
 
-.selection {
+div.select {
   margin: 0;
   height: 4%;
 }
@@ -156,6 +156,10 @@ p#data {
 p.borderBelow {
   border-bottom: 1px solid #aaa;
   padding: 0 0 20px 0;
+}
+
+p.small {
+  font-size: 0.7em;
 }
 
 section p:last-of-type {

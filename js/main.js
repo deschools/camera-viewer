@@ -67,3 +67,17 @@ function start() {
 videoSelect.onchange = start;
 
 start();
+
+function toggle_widescreen() {
+  const width = videoElement.style.width
+  if (width) {
+    videoElement.style.width = "100%";
+    videoElement.style.height = "auto";
+    document.getElementById("container").style.width = "100%";
+  }
+  else {
+    videoElement.style.width = "";
+    videoElement.style.height = "";
+    document.getElementById("container").style.width = "";
+  }
+}

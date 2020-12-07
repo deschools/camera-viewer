@@ -68,7 +68,7 @@ videoSelect.onchange = start;
 
 start();
 
-function toggle_widescreen() {
+function toggle_widescreen_fullscreen() {
   const width = videoElement.style.width
   if (width) {
     videoElement.style.width = "100%";

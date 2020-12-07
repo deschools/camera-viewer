@@ -90,7 +90,8 @@ div#container {
   max-width: 60em;
   padding: 1em 1.5em 1.3em 1.5em;*/
   display: inline-block;
-  height: 100%
+  /*height: 100%*/
+  width: 100%;
 }
 
 div#links {
@@ -246,7 +247,8 @@ video {
   --width: 100%;
   width: var(--width);
   height: calc(var(--width) * 0.75);*/
-  height: 94%;
+  /*height: 94%;*/
+  width: 100%;
 }
 
 ul {
